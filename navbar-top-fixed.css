@@ -1,0 +1,77 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 3.78rem;
+}
+
+#navbarCollapse ul li a:hover {
+  color: #4040c4 !important;
+}
+
+@media (max-width: 768px) {
+  .navactive {
+    background-color: rgb(0, 0, 0, 0.3)  !important;
+    height: 100vh;
+    align-items: flex-start;
+  }
+  /* .container-fluid{
+    transition: all 0.6s;
+  } */
+
+  .nv-crece{
+    transform: scale(1.1);
+    font-size: 2.45rem;
+    color: #ff0000 !important;
+    font-weight: 700;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .icon-cross {
+    color: #000;
+    font-size: 1.2rem;
+    color: brown !important;
+  }
+
+  #nav{
+    padding: 12px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+
+    /* 1 es x, dos es y, 3 uno es distorción, 4expanción */
+    box-shadow: 1px 2px 1px 2px rgb(0, 0, 0, 40%);
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+  }
+
+  .icon-menu2 {
+    color: #000;
+  }
+
+  #navbarCollapse {
+    position: fixed;
+    bottom: 110px;
+    right: 40px;
+    /* color: #000; */
+    background-color: #fff;
+    box-shadow: 3px 2px 5px 4px rgb(0, 0, 0, 0.3);;
+    /* border: 1px solid #00ff; */
+    width: 12rem;
+    border-radius:  10px;
+  }
+
+  #navbarCollapse ul li {
+    padding: 15px 5px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.3);
+  }
+
+  .nav-link {
+    color: #000 !important;
+    font-weight: 700;
+  }
+}
+
+.navbar-nav li a {
+  color: #000 !important;
+}
