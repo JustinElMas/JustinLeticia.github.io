@@ -8,7 +8,7 @@ body {
   color: #4040c4 !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navactive {
     background-color: rgb(0, 0, 0, 0.3)  !important;
     height: 100vh;
@@ -33,10 +33,10 @@ body {
   }
 
   #nav{
-    padding: 12px;
+    padding: 15px;
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 45px;
+    right: 45px;
 
     /* 1 es x, dos es y, 3 uno es distorción, 4expanción */
     box-shadow: 1px 2px 1px 2px rgb(0, 0, 0, 40%);
